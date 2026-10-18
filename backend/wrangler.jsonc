@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "precifica-backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-03-20",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "precifica-db",
+      "database_id": "959bab9e-456e-4932-bea1-61b39a670e89"
+    }
+  ]
+}
